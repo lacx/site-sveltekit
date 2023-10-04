@@ -23,6 +23,12 @@ npm init vite
 
 ### Create GitHub Action to deploy the site to GitHub Pages
 
+https://www.okupter.com/blog/deploy-sveltekit-website-to-github-pages
+
+```
+pnpm add -D @sveltejs/adapter-static
+```
+
 - In the GitHub repo go to _Settings/Pages_ at _Source_ select __GitHub Actions__ and click _create your own_
 
 - see the file _.github\workflows\deploy-to-gh-pages_

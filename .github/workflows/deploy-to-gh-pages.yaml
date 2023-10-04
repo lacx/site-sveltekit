@@ -27,7 +27,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v2
         with:
-          path: ./site-vite-project/dist
+          path: ./site-vite-project/build
 
       - uses: actions/deploy-pages@v2
         with:
